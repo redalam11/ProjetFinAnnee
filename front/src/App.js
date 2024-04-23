@@ -1,16 +1,12 @@
-import logo from './logo.svg';
+import logo from './logo.svg'
 import './App.css';
-import Home from './components/Home/Home';
-import Inscrption from './components/inscription/Inscrption';
-import Connexion from './components/connexion/Connexion';
+import LoginForm from './components/LoginForm/LoginForm';
 
 function App() {
   return (
-  <div>
-    {/* <Home/> */}
-    {/* <Inscrption/> */}
-    <Connexion/>
-  </div>
+    <div>
+      <LoginForm />
+    </div>
   );
 }
 
