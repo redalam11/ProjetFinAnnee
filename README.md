@@ -1,3 +1,3 @@
 # ProjetFinAnnee
 
-projet de pfa realise par reda lamdabbar
+Projet de PFA réalisé par Reda Lamdabbar. Le projet consiste à réaliser un site web de diagnostic automobile où tu peux faire ton diagnostic. Le site consiste à remplir au début tes informations pour que tu crées un compte. Ensuite, tu dois remplir un formulaire où se trouvent tes informations personnelles ainsi que le type de diagnostic, et même une option où tu peux choisir si tu veux te déplacer chez nous au garage ou si on envoie notre personnel chez vous. Il y a aussi un type de paiement. Une partie va gérer le feedback des clients où tu peux écrire votre feedback sur notre service, et une partie notifications pour gérer les résultats que nous envoyons en PDF.

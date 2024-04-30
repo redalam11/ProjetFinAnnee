@@ -9,5 +9,8 @@ app.listen(port, ()=>{
 console.log("Serveur en cours d'execution ...")
 })
 
+app.get("/",(request,response)=>{
+    response.send("Bonjour reda lambadabar")
+})
 
-// lancement sur branche bdd serveur ladabar
+// lancement sur branche bdd serveur lamdabbar
