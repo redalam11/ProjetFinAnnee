@@ -1,12 +1,11 @@
-import logo from './logo.svg'
 import './App.css';
-import LoginForm from './components/LoginForm/LoginForm';
+import RoutesPFA from "../src/routes"
 
 function App() {
   return (
     <div>
-      <LoginForm />
-    </div> 
+      <RoutesPFA/>
+    </div>
   );
 }
 
