@@ -17,21 +17,35 @@ const registerUser = asyncHandler(async(req,res)=>{
     else{
 
         res.json(
-            "Utilisateur existnt"
+            "Utilisateur existant"
         )
     }
 
 }
 )
 
-
-
 const loginUser = asyncHandler(async(req,res)=>{
- 
+    const { email , password} = req.body;
+    const findUser = await User.findOne({ email }); 
+    if(findUser && (await findUser.isPasswordMatched(password))){
+        res.json(findUser)
+       } else {
+            throw new Error("Invalid Credentials");
 
-}
-)
+        }
+    }
+);
+
+
+const getallUser = asyncHandler(async(req, res) => {
+    try {
+        const getUsers = await User.find();
+        res.json(getUsers);
+    } catch(error) {
+        throw new Error(error);
+    }
+});
 
 module.exports = {
-    registerUser, loginUser
+    registerUser, loginUser, getallUser
 }
