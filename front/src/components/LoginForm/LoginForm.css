@@ -20,21 +20,6 @@
     margin: 30px 0;
 }
 
-a{
-    text-decoration: none;
-    text-align: center;
-}
-
-.paccount{
-    margin-top: 1rem;
-    color: whitesmoke;
-}
-
-.paccount:hover{
-    cursor: pointer;
-    color: rgb(180, 192, 202);
-}
-
 .input-box input {
     width: 100%;
     height: 100%;
@@ -53,6 +38,17 @@ a{
 
 }
 
+
+.lamdabbar {
+    background: url('/Users/redalamdabbar/Desktop/ProjetFinAnnee/front/public/pfacar.png') no-repeat center center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 .input-box .icon {
     position: absolute;
     right: 20px;
