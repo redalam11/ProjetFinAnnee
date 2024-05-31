@@ -6,15 +6,18 @@ const Navbar = () => {
   return (
     <div className='navbar'>
 
-<h1>VEHIPULSE</h1>
+
+
+<a href="/home"><h1>VEHIPULSE</h1></a>
+
         <ul>
        
-             <Link to="/home"> <li>HOME</li> </Link>
+            <Link to="/home"> <li>HOME</li> </Link>
             <Link to="/Login"> <li>LOGIN</li> </Link>
-             <Link to="/register"> <li>REGISTER</li></Link>
-            <Link to="/home"> <li>FORMULAIRE DE TEST</li> </Link>
-           <Link to="/home">   <li>ABOUT US</li></Link>
-            <Link to="/home">  <li>LOGOUT</li></Link>
+            <Link to="/register"> <li>REGISTER</li></Link>
+            <Link to="/Formulaire"> <li>FORMULAIRE DEReservation</li> </Link>
+            <Link to="/about-us"> <li>ABOUTUS</li></Link>
+            <Link to="/Login"> <li>LOGOUT</li></Link>
 
 
 

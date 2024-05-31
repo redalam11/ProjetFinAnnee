@@ -1,6 +1,4 @@
-/* Style pour l'image de fond */
 .backgroundhome {
-    background: url('/Users/redalamdabbar/Desktop/ProjetFinAnnee/front/public/blackpfa.jpeg') no-repeat center center;
     background-size: cover;
     position: fixed;
     top: 0;
@@ -10,16 +8,15 @@
     z-index: -1;
 }
 
-/* Style pour le contenu principal de l'application */
 .App {
     font-family: Arial, sans-serif;
     margin-top: 60px; /* Ajout de marge supérieure pour éviter que le contenu ne soit caché par le navbar */
 }
 
-/* Style pour la section d'en-tête */
 .hero-section {
     text-align: center;
     padding: 50px;
+    background-color: black; /* Fond noir */
     color: white; /* Texte en blanc pour le contraste */
     margin-top: 20px; /* Ajout de marge supérieure pour éviter que le contenu ne soit caché par le navbar */
 }
@@ -30,7 +27,6 @@
     line-height: 1.5;
 }
 
-/* Style pour les sections À propos et Avantages */
 .about-section, .advantages-section {
     padding: 40px 20px;
     max-width: 800px;
@@ -39,7 +35,6 @@
     margin-top: 20px; /* Ajout de marge supérieure pour éviter que le contenu ne soit caché par le navbar */
 }
 
-/* Style pour les listes à puces dans la section Avantages */
 .advantages-section ul {
     list-style: none;
     padding: 0;
@@ -49,12 +44,10 @@
     margin: 20px 0;
 }
 
-/* Style pour les éléments mis en évidence (comme le slogan) */
 .highlight {
-    color: #ffffff; /* Couleur du texte en surbrillance */
+    color: #ffffff; /* Changez cette valeur pour la couleur souhaitée */
 }
 
-/* Style pour la section À propos */
 .about-section {
-    color: #ffffff; /* Couleur du texte */
+    color: #ffffff; /* Changement de couleur du texte */
 }
